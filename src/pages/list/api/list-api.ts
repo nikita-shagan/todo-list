@@ -1,5 +1,4 @@
-import getDb from "@/shared/api/idb/get-db";
-import { Stores } from "@/shared/api/idb/stores";
+import { getDb, Stores } from "@/shared/api";
 import { Todo } from "../model/list-slice";
 
 export async function addOrUpdateTodos(

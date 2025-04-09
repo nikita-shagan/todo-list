@@ -16,7 +16,7 @@ const dbUpgrades = {
   },
 };
 
-export default function getDb(name?: string): Promise<IDBPDatabase> {
+export function getDb(name?: string): Promise<IDBPDatabase> {
   const dbName = name || "ANON_USER";
   if (!dbConnections[dbName]) {
     dbConnections[dbName] = openDB(dbName, dbVersion, dbUpgrades);
