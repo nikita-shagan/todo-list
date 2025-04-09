@@ -36,7 +36,7 @@ export const addTodo = createAsyncThunk<Todo | null, string>(
   async (name) => {
     try {
       const newTodo = {
-        id: crypto.randomUUID(),
+        id: new Date().valueOf().toString(),
         name,
         completed: false,
       };

@@ -57,6 +57,7 @@ export function TodoList() {
           aria-describedby="my-helper-text"
           variant="outlined"
           placeholder="Что нужно сделать?"
+          required
         />
       </FormControl>
       <List className="todo-list-list">
