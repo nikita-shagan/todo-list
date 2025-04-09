@@ -1,0 +1,4 @@
+{
+  "endOfLine": "crlf",
+  "plugins": ["prettier-plugin-organize-imports"]
+}
