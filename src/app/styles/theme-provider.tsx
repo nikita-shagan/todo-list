@@ -15,7 +15,6 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
       },
     });
   }
-  console.log(themeRef.current);
   return (
     <MuiThemeProvider theme={themeRef.current}>{children}</MuiThemeProvider>
   );

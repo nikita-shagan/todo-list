@@ -1,0 +1,29 @@
+.todo-list-item {
+    display: flex;
+    align-items: flex-start;
+    min-height: 45px;
+    gap: 8px;
+    padding: 10px 0;
+    flex-grow: 1;
+    min-width: 0;
+    cursor: pointer;
+}
+
+.todo-list-item-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.todo-list-item-name {
+    transition: all .3s ease-in-out;
+    flex-grow: 1;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+
+.todo-list-item-name_completed {
+    text-decoration: line-through;
+    opacity: .5;
+}

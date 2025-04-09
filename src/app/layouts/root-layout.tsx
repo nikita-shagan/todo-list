@@ -11,7 +11,7 @@ const ibmPlexSans = IBM_Plex_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Ai Chat",
+  title: "Список дел",
 };
 
 export function RootLayout({

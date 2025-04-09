@@ -8,7 +8,7 @@ export function ListPage() {
   return (
     <Box className="list-page">
       <Box component="h1" className="list-page-title">
-        TODOS APP
+        Список дел
       </Box>
       <TodoList />
     </Box>
