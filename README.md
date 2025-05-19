@@ -1,7 +1,3 @@
-Here’s a shorter version of the README:
-
----
-
 # ToDo List App (Next.js)
 
 A simple ToDo app built with **Next.js**, **Redux Toolkit**, and **IndexedDB** for state persistence. Manage tasks with features like adding, toggling completion, filtering, and clearing completed tasks.
